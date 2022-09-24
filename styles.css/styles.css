@@ -701,7 +701,7 @@ border-radius: 0px 0px 4px 4px;
     
 }
 
-.btn-link:hover .logo-one:hover {
+.btn-link:hover .logo-one {
     fill: var(--primary-white-color);
 }
 
