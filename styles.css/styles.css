@@ -251,7 +251,8 @@ text-decoration: none;
     margin-right: 0px;
 }
 
-.link.weight:hover {
+.link.weight:hover,
+.link.weight:focus {
     color: var(--accent-color);
 }
 
@@ -551,12 +552,7 @@ border: 1px solid #AFB1B8;
 .border-text:focus
 {
     color: var(--accent-color);
-        border-radius: 4px;
 }
-
-
-
-
 
 
  .border:first-child {
@@ -709,15 +705,18 @@ text-decoration: none;
    
 }
 
-.logo-one-footer:hover {
+.logo-one-footer:hover,
+ .logo-one-footer:focus{
     fill: var(--primary-white-color);
 }
 
-.insta-footer:hover {
+.insta-footer:hover,
+.insta-footer:focus {
     background-color: var(--accent-color);
 }
 
-.insta-footer:hover .logo-one-footer {
+.insta-footer:hover .logo-one-footer,
+.insta-footer:focus .logo-one-footer {
     fill: var(--primary-white-color);
 }
 
@@ -741,20 +740,24 @@ text-decoration: none;
  fill: currentColor;
 }
 
-.logo-one:hover {
+.logo-one:hover,
+.logo-one:focus {
     fill: var(--primary-white-color);
 }
 
-.btn-link:hover {
+.btn-link:hover,
+.btn-link:focus {
     background-color: var(--accent-color);
     
 }
 
-.btn-link:hover .logo-one {
+.btn-link:hover .logo-one,
+.btn-link:focus .logo-one {
     fill: var(--primary-white-color);
 }
 
-.icons-feature:hover {
+.icons-feature:hover,
+.icons-feature:focus {
 fill: var(--accent-color);    
 }
 
