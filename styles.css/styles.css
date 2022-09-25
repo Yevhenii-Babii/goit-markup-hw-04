@@ -232,6 +232,15 @@ text-decoration: none;
     margin-left: 30px;
 }
 
+.link.weight-footer {
+        font-weight: 500;
+            color: var(--primary-text-color);
+        }
+
+
+
+
+
 .item-tel {
     margin-right: 10px;
     fill: currentColor;
