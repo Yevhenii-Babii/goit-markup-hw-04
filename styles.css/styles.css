@@ -486,8 +486,8 @@ border-radius: 4px;
 
 .contact-inform {
     background-color: var(--background-color);
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .contact-inform .logo-white {
     color: var(--primary-white-color);
@@ -702,6 +702,10 @@ border-radius: 0px 0px 4px 4px;
 
 .insta-footer:hover .logo-one-footer {
     fill: var(--primary-white-color);
+}
+
+.container-box.footer {
+    display: flex;
 }
 
 .btn-link {
