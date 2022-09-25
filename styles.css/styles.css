@@ -199,7 +199,8 @@ padding-bottom: 32px;
     display: flex;
     margin-left: auto;
     align-items: flex-end;
-  
+  padding-top: 32px;
+  padding-bottom: 32px;
     
 }
 
@@ -528,9 +529,7 @@ border-radius: 4px;
     width: 170px;
     height: 92px;
     margin-left: 20px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px; 
-
+    
 }
 
 .border-text {
@@ -540,14 +539,19 @@ border-radius: 4px;
     width: 170px;
     height: 92px;
    color: var(--btn-start-color);
+border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 .logo-two {
     fill: currentColor;
 }
 
-.border-text:hover {
+.border-text:hover,
+.border-text:focus
+{
     color: var(--accent-color);
+        border-radius: 4px;
 }
 
 
@@ -655,6 +659,7 @@ width: 270px;
 }
 
 .box-list-portfolio {
+    display: block;
  border-bottom: 1px solid #EEEEEE;
 border-left:  1px solid #EEEEEE;
 border-right:  1px solid #EEEEEE;
@@ -664,13 +669,16 @@ padding-top: 20px;
 padding-bottom: 20px;
 background-color: var(--primary-white-color);
 background: #FFFFFF;
-
+text-decoration: none;
 }
 
-.portfolio .item:hover {
+.box-list-portfolio:hover,
+.box-list-portfolio:focus {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+        border-radius: 0px 0px 4px 4px;
 }
+
+
 
 .contact-site .item-street {
     margin-bottom: 9px;
@@ -695,7 +703,7 @@ border-radius: 0px 0px 4px 4px;
 } 
 
 .logo-one-footer {
-    fill: var(--primary-text-color);
+    fill: var(--primary-white-color);
    
  
    
