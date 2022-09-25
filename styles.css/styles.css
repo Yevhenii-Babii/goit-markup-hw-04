@@ -550,6 +550,7 @@ border: 1px solid #AFB1B8;
 .border-text:focus
 {
     color: var(--accent-color);
+    border: 1px solid var(--accent-color);
 }
 
 
@@ -693,8 +694,13 @@ text-decoration: none;
     width: 44px;
     background-color:rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    margin-left: 10px;
     
 } 
+
+.insta-footer:first-child {
+    margin-left: 0px;
+}
 
 .logo-one-footer {
     fill: var(--primary-white-color);
